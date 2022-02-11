@@ -16,20 +16,20 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "C:\\Users\\teacher\\Documents\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
-                "C:\\Users\\teacher\\Documents\\Arduino\\hardware\\arduino\\avr\\variants\\leonardo",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\leonardo",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\program files (x86)\\arduino\\hardware\\tools\\avr\\avr\\include"
             ],
             "forcedInclude": [
-                "C:\\Users\\teacher\\Documents\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++11",
             "defines": [
                 "F_CPU=16000000L",
-                "ARDUINO=10814",
+                "ARDUINO=10816",
                 "ARDUINO_AVR_LEONARDO",
                 "ARDUINO_ARCH_AVR",
                 "USB_VID=0x2341",
