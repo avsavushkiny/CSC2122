@@ -1,5 +1,5 @@
 {
     "board": "arduino:avr:leonardo",
     "port": "COM8",
-    "sketch": "Issue-Union\\Issue-Union.ino"
+    "sketch": "Issue-Union\\issueSet1\\Set1\\Set1.ino"
 }
