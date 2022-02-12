@@ -32,7 +32,7 @@ void product()
       //prize.article.id_int = Serial.readString(); //?
 
       Serial.println(prize.article.id_int);
-      Serial.println(sizeof(prize));
+      //Serial.println(sizeof(prize));
     }
     else
     {
@@ -41,7 +41,7 @@ void product()
       text.toCharArray(prize.article.id_char, 20);
 
       Serial.println(prize.article.id_char);
-      Serial.println(sizeof(prize));
+      //Serial.println(sizeof(prize));
     }
   }
 }
