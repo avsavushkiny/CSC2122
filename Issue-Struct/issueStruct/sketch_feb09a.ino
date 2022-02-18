@@ -25,6 +25,7 @@ struct Employee
 
 void setup()
 {
+  Serial.println();
 }
 
 void loop()
