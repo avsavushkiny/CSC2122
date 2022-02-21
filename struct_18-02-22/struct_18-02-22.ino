@@ -1,38 +1,25 @@
-
 struct Employee
 {
     String names;
-    String id_pc;
-    int long numbers;
-    String lecture;
-    String eMail; 
+    long int salary;
+    int8_t age;
 };
 
-Employee sergey {"Sergey", "Mia-pc05", 898734, "Lectutre 4", "kanekiken@yandex.ru"};
-Employee alexander{"Alexander", "Alisa-pc01", 123456, "Lecture 4", "cucumber@ro.ru"};
-Employee kirill{"Kirill" , "Rebeka-pc11" , 808999 , "Lecture 4 " , "putin@mail.ro"};
+Employee alexander {"Alexander", 35000, 36};
+Employee maxim {"Maxim", 300000, 13};
+Employee kirill{"Kirill",36000, 14};
+Employee ruslan{"Ruslan",1000000, 13};
 
-void setup()
-{
+void setup(){
+Serial.begin(9600);
 }
-
-void loop() {  
-     
-Serial.println(sergey.names);
-Serial.println(sergey.id_pc);
-Serial.println(sergey.numbers);
-Serial.println(sergey.lecture);
-Serial.println(sergey.eMail);
-Serial.println(" ");
-Serial.println(kirill.names);
-Serial.println(kirill.id_pc);
-Serial.println(kirill.numbers);
-Serial.println(kirill.lecture);
-Serial.println(kirill.eMail);
-Serial.println(" ");
-Serial.println(alexander.names);
-Serial.println(alexander.id_pc);
-Serial.println(alexander.numbers);
-Serial.println(alexander.lecture);
-Serial.println(alexander.eMail);
+void loop(){
+    String text1 = maxim.names + " " + maxim.salary + " " + maxim.age;
+    String text2 = alexander.names + " " + alexander.salary + " " + alexander.age;
+    String text3 = ruslan.names + " " + ruslan.salary + " " + ruslan.age;
+    String text4 = kirill.names + " " + kirill.salary + " " + kirill.age;
+Serial.println(text1);
+Serial.println(text2);
+Serial.println(text3);
+Serial.println(text4);
 }
